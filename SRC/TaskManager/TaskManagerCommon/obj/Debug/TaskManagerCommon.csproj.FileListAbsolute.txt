@@ -1,0 +1,4 @@
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\TaskManagerCommon.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\TaskManagerCommon.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\obj\Debug\TaskManagerCommon.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\obj\Debug\TaskManagerCommon.pdb

@@ -1,0 +1,18 @@
+2017-09-07 11:34:49,960 [1] ERROR TaskManagerServer.QuartzServer - Server initialization failed:“TaskManagerUtility.QuartzHelper”的类型初始值设定项引发异常。
+System.TypeInitializationException: “TaskManagerUtility.QuartzHelper”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 TaskManagerUtility.QuartzHelper..cctor() 位置 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\QuartzHelper.cs:行号 25
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 TaskManagerUtility.QuartzHelper.InitScheduler()
+   在 TaskManagerServer.QuartzServer.Initialize() 位置 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerServer\QuartzServer.cs:行号 35
+2017-09-07 11:35:28,686 [1] ERROR TaskManagerServer.QuartzServer - Server initialization failed:“TaskManagerUtility.QuartzHelper”的类型初始值设定项引发异常。
+System.TypeInitializationException: “TaskManagerUtility.QuartzHelper”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 TaskManagerUtility.QuartzHelper..cctor() 位置 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\QuartzHelper.cs:行号 25
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 TaskManagerUtility.QuartzHelper.InitScheduler()
+   在 TaskManagerServer.QuartzServer.Initialize() 位置 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerServer\QuartzServer.cs:行号 35
+2017-09-07 11:37:29,368 [1] ERROR TaskManagerServer.QuartzServer - Server initialization failed:“TaskManagerUtility.QuartzHelper”的类型初始值设定项引发异常。
+System.TypeInitializationException: “TaskManagerUtility.QuartzHelper”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 TaskManagerUtility.QuartzHelper..cctor() 位置 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\QuartzHelper.cs:行号 25
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 TaskManagerUtility.QuartzHelper.InitScheduler()
+   在 TaskManagerServer.QuartzServer.Initialize() 位置 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerServer\QuartzServer.cs:行号 34

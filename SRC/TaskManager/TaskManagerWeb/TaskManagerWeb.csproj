@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA98A4D7-6DD0-4FF3-B114-215F73B53FFC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TaskManagerWeb</RootNamespace>
+    <AssemblyName>TaskManagerWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalQuartz.Core, Version=4.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalQuartz.Remote.4.2.1.0\lib\CrystalQuartz.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalQuartz.Web, Version=4.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalQuartz.Remote.4.2.1.0\lib\CrystalQuartz.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Quartz, Version=2.6.0.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartz.2.6.0\lib\net40\Quartz.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModifyJob.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="JobList.aspx" />
+    <Content Include="Script\Base.js" />
+    <Content Include="Script\bootstrap-paginator.min.js" />
+    <Content Include="Script\JobList.js" />
+    <Content Include="Script\jquery-1.11.3.min.js" />
+    <Content Include="Script\jquery.validate.min.js" />
+    <Content Include="Script\juicer-min.js" />
+    <Content Include="Script\messages_zh.min.js" />
+    <Content Include="Script\My97DatePicker\calendar.js" />
+    <Content Include="Script\My97DatePicker\lang\en.js" />
+    <Content Include="Script\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="Script\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="Script\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="Script\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="Script\My97DatePicker\skin\default\img.gif" />
+    <Content Include="Script\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="Script\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="Script\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="Script\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="Script\My97DatePicker\WdatePicker.js" />
+    <Content Include="Script\My97DatePicker\开发包\lang\en.js" />
+    <Content Include="Script\My97DatePicker\开发包\lang\zh-cn.js" />
+    <Content Include="Script\My97DatePicker\开发包\lang\zh-tw.js" />
+    <Content Include="Script\My97DatePicker\开发包\readme.txt" />
+    <Content Include="Script\My97DatePicker\开发包\skin\datePicker.gif" />
+    <Content Include="Script\My97DatePicker\开发包\skin\default\datepicker.css" />
+    <Content Include="Script\My97DatePicker\开发包\skin\default\img.gif" />
+    <Content Include="Script\My97DatePicker\开发包\skin\WdatePicker.css" />
+    <Content Include="Script\My97DatePicker\开发包\skin\whyGreen\bg.jpg" />
+    <Content Include="Script\My97DatePicker\开发包\skin\whyGreen\datepicker.css" />
+    <Content Include="Script\My97DatePicker\开发包\skin\whyGreen\img.gif" />
+    <Content Include="Style\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Style\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Style\bootstrap\css\bootstrap.css" />
+    <Content Include="Style\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Style\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Style\bootstrap\js\bootstrap.js" />
+    <Content Include="Style\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Style\bootstrap\js\npm.js" />
+    <Content Include="Style\bootstrap\css\doc.css" />
+    <Content Include="Style\bootstrap\css\patch.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModifyJob.aspx.cs">
+      <DependentUpon>ModifyJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModifyJob.aspx.designer.cs">
+      <DependentUpon>ModifyJob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\TaskManager.ashx.cs">
+      <DependentUpon>TaskManager.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="JobList.aspx.cs">
+      <DependentUpon>JobList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobList.aspx.designer.cs">
+      <DependentUpon>JobList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\TaskManager.ashx" />
+    <Content Include="Config\apps.config" />
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Style\bootstrap\css\bootstrap-theme.css.map" />
+    <None Include="Style\bootstrap\css\bootstrap.css.map" />
+    <None Include="Style\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Style\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Style\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Style\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagerCommon\TaskManagerCommon.csproj">
+      <Project>{3F1E3878-3DFA-44BB-81D1-59BAAFA4DAD6}</Project>
+      <Name>TaskManagerCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaskManagerListener\TaskManagerListener.csproj">
+      <Project>{88A819D1-2235-4052-AEE2-CA60C02DA2D8}</Project>
+      <Name>TaskManagerListener</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaskManagerTaskSet\TaskManagerTaskSet.csproj">
+      <Project>{800B9124-45BF-4A69-8BA3-F6D505B21A35}</Project>
+      <Name>TaskManagerTaskSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaskManagerUtility\TaskManagerUtility.csproj">
+      <Project>{F6CC1522-B0F9-4366-8932-B7E7297A9A06}</Project>
+      <Name>TaskManagerUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3025</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
