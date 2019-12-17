@@ -7,67 +7,67 @@
     <file relUrl="Style/bootstrap/css/bootstrap-theme.css" publishTime="08/31/2017 14:43:08" />
     <file relUrl="Style/bootstrap/css/bootstrap.min.css" publishTime="08/31/2017 14:43:08" />
     <file relUrl="Style/bootstrap/css/patch.css" publishTime="08/31/2017 17:38:08" />
-    <file relUrl="bin/CrystalQuartz.Web.dll" publishTime="09/07/2017 10:46:00" />
-    <file relUrl="Web.config" publishTime="09/19/2017 15:48:48" />
+    <file relUrl="bin/CrystalQuartz.Web.dll" publishTime="10/27/2017 11:30:30" />
+    <file relUrl="Web.config" publishTime="11/08/2017 13:46:09" />
     <file relUrl="Script/bootstrap-paginator.min.js" publishTime="10/23/2017 15:25:55" />
     <file relUrl="Script/My97DatePicker/skin/default/img.gif" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Script/My97DatePicker/WdatePicker.js" publishTime="09/01/2017 16:39:52" />
-    <file relUrl="bin/Quartz.pdb" publishTime="08/25/2017 10:43:56" />
+    <file relUrl="bin/Quartz.pdb" publishTime="10/27/2017 10:27:23" />
     <file relUrl="Script/My97DatePicker/skin/default/datepicker.css" publishTime="09/01/2017 16:39:52" />
-    <file relUrl="bin/TaskManagerUtility.dll" publishTime="10/23/2017 17:03:58" />
+    <file relUrl="bin/TaskManagerUtility.dll" publishTime="11/08/2017 13:41:36" />
     <file relUrl="Global.asax" publishTime="09/04/2017 11:30:32" />
-    <file relUrl="bin/Common.Logging.xml" publishTime="08/25/2017 10:43:56" />
+    <file relUrl="bin/Common.Logging.xml" publishTime="10/27/2017 10:25:49" />
     <file relUrl="bin/Newtonsoft.Json.xml" publishTime="09/04/2017 17:30:01" />
-    <file relUrl="bin/TaskManagerWeb.dll" publishTime="10/23/2017 17:03:58" />
+    <file relUrl="bin/TaskManagerWeb.dll" publishTime="11/08/2017 13:42:11" />
     <file relUrl="Script/jquery.validate.min.js" publishTime="09/01/2017 11:08:10" />
-    <file relUrl="bin/Common.Logging.pdb" publishTime="08/25/2017 10:43:56" />
+    <file relUrl="bin/Common.Logging.pdb" publishTime="10/27/2017 10:25:49" />
     <file relUrl="Script/My97DatePicker/lang/zh-tw.js" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Config/apps.config" publishTime="09/07/2017 16:26:44" />
     <file relUrl="Script/My97DatePicker/开发包/readme.txt" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Script/jquery-1.11.3.min.js" publishTime="08/31/2017 15:45:46" />
     <file relUrl="Script/My97DatePicker/lang/zh-cn.js" publishTime="09/01/2017 16:39:52" />
     <file relUrl="bin/Newtonsoft.Json.dll" publishTime="09/04/2017 17:30:01" />
-    <file relUrl="bin/TaskManagerTaskSet.pdb" publishTime="10/23/2017 17:03:58" />
+    <file relUrl="bin/TaskManagerTaskSet.pdb" publishTime="11/08/2017 13:42:11" />
     <file relUrl="Script/My97DatePicker/开发包/lang/zh-cn.js" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Script/My97DatePicker/开发包/skin/whyGreen/bg.jpg" publishTime="09/01/2017 16:39:52" />
-    <file relUrl="bin/TaskManagerCommon.pdb" publishTime="10/23/2017 17:03:57" />
+    <file relUrl="bin/TaskManagerCommon.pdb" publishTime="11/08/2017 13:41:36" />
     <file relUrl="Script/juicer-min.js" publishTime="09/04/2017 17:51:56" />
     <file relUrl="Script/Base.js" publishTime="09/21/2017 15:52:00" />
-    <file relUrl="packages.config" publishTime="09/07/2017 10:46:03" />
-    <file relUrl="bin/TaskManagerWeb.pdb" publishTime="10/23/2017 17:03:58" />
-    <file relUrl="bin/Quartz.xml" publishTime="08/25/2017 10:43:56" />
+    <file relUrl="packages.config" publishTime="10/27/2017 11:30:32" />
+    <file relUrl="bin/TaskManagerWeb.pdb" publishTime="11/08/2017 13:42:11" />
+    <file relUrl="bin/Quartz.xml" publishTime="10/27/2017 10:27:23" />
     <file relUrl="Script/My97DatePicker/skin/whyGreen/datepicker.css" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Style/bootstrap/css/bootstrap.css" publishTime="08/31/2017 14:43:08" />
     <file relUrl="Script/JobList.js" publishTime="10/23/2017 16:12:49" />
     <file relUrl="Script/My97DatePicker/skin/datePicker.gif" publishTime="09/01/2017 16:39:52" />
-    <file relUrl="bin/Common.Logging.dll" publishTime="08/25/2017 10:43:56" />
+    <file relUrl="bin/Common.Logging.dll" publishTime="10/27/2017 10:25:49" />
     <file relUrl="ModifyJob.aspx" publishTime="10/23/2017 10:03:20" />
     <file relUrl="Style/bootstrap/fonts/glyphicons-halflings-regular.svg" publishTime="08/31/2017 14:43:08" />
     <file relUrl="Script/My97DatePicker/skin/whyGreen/bg.jpg" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Script/My97DatePicker/calendar.js" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Style/bootstrap/js/bootstrap.min.js" publishTime="08/31/2017 14:43:08" />
-    <file relUrl="bin/Common.Logging.Core.pdb" publishTime="08/25/2017 10:43:56" />
+    <file relUrl="bin/Common.Logging.Core.pdb" publishTime="10/27/2017 10:25:49" />
     <file relUrl="Style/bootstrap/css/doc.css" publishTime="08/31/2017 17:38:09" />
     <file relUrl="Script/My97DatePicker/开发包/lang/en.js" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Handler/TaskManager.ashx" publishTime="09/04/2017 14:11:30" />
     <file relUrl="Script/My97DatePicker/开发包/skin/default/datepicker.css" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Script/messages_zh.min.js" publishTime="09/01/2017 11:31:17" />
     <file relUrl="Script/My97DatePicker/开发包/skin/WdatePicker.css" publishTime="09/01/2017 16:39:52" />
-    <file relUrl="bin/Common.Logging.Core.dll" publishTime="08/25/2017 10:43:56" />
-    <file relUrl="bin/Quartz.dll" publishTime="08/25/2017 10:43:56" />
+    <file relUrl="bin/Common.Logging.Core.dll" publishTime="10/27/2017 10:25:49" />
+    <file relUrl="bin/Quartz.dll" publishTime="10/27/2017 10:27:23" />
     <file relUrl="Style/bootstrap/js/bootstrap.js" publishTime="08/31/2017 14:43:08" />
     <file relUrl="Script/My97DatePicker/开发包/skin/whyGreen/datepicker.css" publishTime="09/01/2017 16:39:52" />
-    <file relUrl="bin/CrystalQuartz.Core.dll" publishTime="09/07/2017 10:46:00" />
+    <file relUrl="bin/CrystalQuartz.Core.dll" publishTime="10/27/2017 11:30:30" />
     <file relUrl="Script/My97DatePicker/开发包/lang/zh-tw.js" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Script/My97DatePicker/skin/WdatePicker.css" publishTime="09/01/2017 16:39:52" />
     <file relUrl="JobList.aspx" publishTime="10/23/2017 16:21:34" />
-    <file relUrl="bin/TaskManagerUtility.pdb" publishTime="10/23/2017 17:03:57" />
-    <file relUrl="bin/TaskManagerTaskSet.dll" publishTime="10/23/2017 17:03:58" />
+    <file relUrl="bin/TaskManagerUtility.pdb" publishTime="11/08/2017 13:41:36" />
+    <file relUrl="bin/TaskManagerTaskSet.dll" publishTime="11/08/2017 13:42:11" />
     <file relUrl="Script/My97DatePicker/lang/en.js" publishTime="09/01/2017 16:39:52" />
     <file relUrl="Script/My97DatePicker/开发包/skin/default/img.gif" publishTime="09/01/2017 16:39:52" />
-    <file relUrl="bin/TaskManagerCommon.dll" publishTime="10/23/2017 17:03:57" />
+    <file relUrl="bin/TaskManagerCommon.dll" publishTime="11/08/2017 13:41:36" />
     <file relUrl="Script/My97DatePicker/skin/whyGreen/img.gif" publishTime="09/01/2017 16:39:52" />
-    <file relUrl="bin/Common.Logging.Core.xml" publishTime="08/25/2017 10:43:56" />
+    <file relUrl="bin/Common.Logging.Core.xml" publishTime="10/27/2017 10:25:49" />
     <file relUrl="Script/My97DatePicker/开发包/skin/datePicker.gif" publishTime="09/01/2017 16:39:52" />
   </publishProfile>
 </publishData>

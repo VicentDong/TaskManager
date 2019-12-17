@@ -12,7 +12,8 @@
     <AssemblyName>TaskManagerServer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <PublishUrl>publish\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\新建文件夹 %282%29\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -22,10 +23,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -51,25 +52,43 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EE9F99501B7C227D87E1C50262D891C8E8D8434F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TaskManagerServer_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
-      <HintPath>..\TaskManagerWeb\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+      <HintPath>..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
-      <HintPath>..\TaskManagerWeb\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Common.Logging.Log4Net1213, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
       <HintPath>..\packages\Common.Logging.Log4Net1213.3.3.1\lib\net40\Common.Logging.Log4Net1213.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="IPVA_DingDingRobotAlarm">
+      <HintPath>..\IPVA_DingDingRobotAlarm\bin\Debug\IPVA_DingDingRobotAlarm.dll</HintPath>
+    </Reference>
+    <Reference Include="IPVA_ISR_PlanTask">
+      <HintPath>..\IPVA_ISR_PlanTask\bin\Debug\IPVA_ISR_PlanTask.dll</HintPath>
+    </Reference>
     <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Quartz, Version=2.6.0.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
-      <HintPath>..\TaskManagerWeb\packages\Quartz.2.6.0\lib\net40\Quartz.dll</HintPath>
+      <HintPath>..\packages\Quartz.2.6.0\lib\net40\Quartz.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -97,7 +116,6 @@
   <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="job_scheduling_data_2_0.xsd">
       <SubType>Designer</SubType>
@@ -108,6 +126,30 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BatchTrafficTasks\BatchTrafficTasks.csproj">
+      <Project>{160A6297-0BF7-4C21-93E3-A51996457B5F}</Project>
+      <Name>BatchTrafficTasks</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HeatMapTasks\HeatMapTasks.csproj">
+      <Project>{A94D99A6-53D6-4BD7-9DD6-C096FA090EA1}</Project>
+      <Name>HeatMapTasks</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IPVA_ISR_FlowUnreported\IPVA_ISR_FlowUnreported.csproj">
+      <Project>{26B5243B-77F5-4CAA-9F0A-1B3268ED3B5E}</Project>
+      <Name>IPVA_ISR_FlowUnreported</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IPVA_ISR_LevelDrops\IPVA_ISR_LevelDrops.csproj">
+      <Project>{338C1F31-A71B-4ED0-93BA-D8323722822A}</Project>
+      <Name>IPVA_ISR_LevelDrops</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTaskTemplate\NewTaskTemplate.csproj">
+      <Project>{803C9B7D-5A33-4037-B9DE-569E4AA41CC4}</Project>
+      <Name>NewTaskTemplate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaskManagerCommon\TaskManagerCommon.csproj">
+      <Project>{3F1E3878-3DFA-44BB-81D1-59BAAFA4DAD6}</Project>
+      <Name>TaskManagerCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TaskManagerTaskSet\TaskManagerTaskSet.csproj">
       <Project>{800B9124-45BF-4A69-8BA3-F6D505B21A35}</Project>
       <Name>TaskManagerTaskSet</Name>
@@ -138,6 +180,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="configuration\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -2,8 +2,6 @@ E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\Tas
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\TaskManagerWeb.pdb
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\Common.Logging.Core.dll
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\Common.Logging.dll
-E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\CrystalQuartz.Core.dll
-E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\CrystalQuartz.Web.dll
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\Newtonsoft.Json.dll
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\Quartz.dll
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\TaskManagerCommon.dll
@@ -20,7 +18,13 @@ E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\Tas
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\obj\Debug\TaskManagerWeb.csprojResolveAssemblyReference.cache
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\obj\Debug\TaskManagerWeb.dll
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\obj\Debug\TaskManagerWeb.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\CrystalQuartz.Core.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\CrystalQuartz.Web.dll
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\TaskManagerTaskSet.dll
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\TaskManagerTaskSet.pdb
-E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\TaskManagerListener.dll
-E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\TaskManagerListener.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\BatchTrafficTasks.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\HeatMapTasks.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\NewTaskTemplate.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\BatchTrafficTasks.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\HeatMapTasks.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerWeb\bin\NewTaskTemplate.pdb

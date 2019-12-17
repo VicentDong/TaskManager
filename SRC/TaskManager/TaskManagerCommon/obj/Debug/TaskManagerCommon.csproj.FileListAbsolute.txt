@@ -2,3 +2,10 @@ E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\Tas
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\TaskManagerCommon.pdb
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\obj\Debug\TaskManagerCommon.dll
 E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\obj\Debug\TaskManagerCommon.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\Common.Logging.Core.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\Common.Logging.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\Common.Logging.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\Common.Logging.xml
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\Common.Logging.Core.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Debug\Common.Logging.Core.xml
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\obj\Debug\TaskManagerCommon.csprojResolveAssemblyReference.cache

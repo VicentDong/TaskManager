@@ -1,0 +1,1222 @@
+2018-01-05 14:58:08,693 [1] INFO  TaskManagerCommon.LogHelper - 创建新的服务实例 'TaskManagerServer.QuartzServer, TaskManagerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2018-01-05 14:58:08,711 [1] INFO  TaskManagerCommon.LogHelper - 创建新的服务实例成功
+2018-01-05 14:58:08,837 [1] INFO  Quartz.Util.DBConnectionManager - Registering datasource 'QuartzDB' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2018-01-05 14:58:08,838 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2018-01-05 14:58:08,845 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using custom data access locking (synchronization): Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore
+2018-01-05 14:58:08,847 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-01-05 14:58:08,879 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-01-05 14:58:08,880 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.6.0.0 created.
+2018-01-05 14:58:08,893 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate
+2018-01-05 14:58:08,895 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate
+2018-01-05 14:58:08,896 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate
+2018-01-05 14:58:08,896 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate
+2018-01-05 14:58:08,897 [1] WARN  Quartz.Impl.AdoJobStore.JobStoreTX - Detected usage of SqlServerDelegate and UpdateLockRowSemaphore, removing 'quartz.jobStore.lockHandler.type' would allow more efficient SQL Server specific (UPDLOCK,ROWLOCK) row access
+2018-01-05 14:58:08,898 [1] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - JobStoreTX initialized.
+2018-01-05 14:58:08,960 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Remoting is allowing remote calls
+2018-01-05 14:58:08,961 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (556) with name (http)
+2018-01-05 14:58:08,962 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Remoting channel registered successfully
+2018-01-05 14:58:08,963 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Successfully marshalled remotable scheduler under name 'TaskManager'
+2018-01-05 14:58:08,969 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.6.0.0) 'TaskManager' with instanceId 'Vincent-PC.lan636507322888627052'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is clustered.
+
+2018-01-05 14:58:08,972 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'TaskManager' initialized
+2018-01-05 14:58:08,972 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.6.0.0
+2018-01-05 14:58:09,124 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'STATE_ACCESS' is desired by: 
+2018-01-05 14:58:09,130 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'STATE_ACCESS' is being obtained: 
+2018-01-05 14:58:09,453 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'STATE_ACCESS' given to: 
+2018-01-05 14:58:09,611 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 
+2018-01-05 14:58:09,612 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 
+2018-01-05 14:58:09,615 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 
+2018-01-05 14:58:09,653 [1] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: detected 1 failed or restarted instances.
+2018-01-05 14:58:09,654 [1] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Scanning for instance "Vincent-PC.lan636507305293600674"'s failed in-progress jobs.
+2018-01-05 14:58:09,662 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: ......Freed 0 acquired trigger(s).
+2018-01-05 14:58:09,663 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: ......Deleted 0 complete triggers(s).
+2018-01-05 14:58:09,664 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: ......Scheduled 0 recoverable job(s) for recovery.
+2018-01-05 14:58:09,664 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: ......Cleaned-up 0 other failed job(s).
+2018-01-05 14:58:09,672 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 
+2018-01-05 14:58:09,673 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'STATE_ACCESS' returned by: 
+2018-01-05 14:58:09,674 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:58:09,678 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler TaskManager_$_Vincent-PC.lan636507322888627052 started.
+2018-01-05 14:58:09,679 [1] INFO  TaskManagerCommon.LogHelper - 作业启动成功
+2018-01-05 14:58:09,685 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 14:58:09,702 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 14:58:09,768 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler
+2018-01-05 14:58:09,769 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler
+2018-01-05 14:58:09,771 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler
+2018-01-05 14:58:09,785 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - Handling 1 trigger(s) that missed their scheduled fire-time.
+2018-01-05 14:58:09,951 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler
+2018-01-05 14:58:10,061 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 14:58:17,104 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:58:24,605 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:58:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 14:58:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 14:58:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 14:58:25,057 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 14:58:25,060 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 14:58:25,070 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 14:58:25,077 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 14:58:25,079 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 14:58:29,751 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)4627.4454ms
+2018-01-05 14:58:29,752 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 14:58:29,756 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 14:58:29,759 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-1
+2018-01-05 14:58:29,760 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-1
+2018-01-05 14:58:29,761 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-1
+2018-01-05 14:58:29,799 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-1
+2018-01-05 14:58:29,802 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 14:58:32,121 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:58:39,614 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:58:47,105 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:58:54,607 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:58:56,913 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 14:59:02,108 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:59:09,607 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:59:09,684 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 14:59:09,685 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 14:59:17,111 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:59:24,609 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:59:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 14:59:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 14:59:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 14:59:25,023 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 14:59:25,023 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 14:59:25,024 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 14:59:25,024 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 14:59:25,025 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 14:59:25,185 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)150.9629ms
+2018-01-05 14:59:25,186 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 14:59:25,187 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 14:59:25,188 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-2
+2018-01-05 14:59:25,189 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-2
+2018-01-05 14:59:25,190 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-2
+2018-01-05 14:59:25,194 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-2
+2018-01-05 14:59:25,195 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 14:59:32,144 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:59:40,134 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:59:47,280 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:59:54,787 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 14:59:54,951 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:00:02,356 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:00:09,683 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:00:09,685 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:00:09,794 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:00:17,297 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:00:24,785 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:00:24,794 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:00:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:00:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:00:25,004 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:00:25,034 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:00:25,035 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:00:25,035 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:00:25,036 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:00:25,043 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:00:25,234 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)195.5456ms
+2018-01-05 15:00:25,235 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:00:25,237 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:00:25,238 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-3
+2018-01-05 15:00:25,239 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-3
+2018-01-05 15:00:25,240 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-3
+2018-01-05 15:00:25,242 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-3
+2018-01-05 15:00:25,244 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:00:32,294 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:00:39,996 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:00:47,340 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:00:50,244 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:00:54,877 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:01:02,377 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:01:09,683 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:01:09,685 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:01:10,090 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:01:17,380 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:01:18,938 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:01:24,879 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:01:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:01:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:01:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:01:25,073 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:01:25,074 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:01:25,075 [TaskManager_Worker-4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:01:25,076 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:01:25,078 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:01:25,261 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)125.1157ms
+2018-01-05 15:01:25,262 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:01:25,266 [TaskManager_Worker-4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:01:25,267 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-4
+2018-01-05 15:01:25,267 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-4
+2018-01-05 15:01:25,268 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-4
+2018-01-05 15:01:25,272 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-4
+2018-01-05 15:01:25,273 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:01:32,381 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:01:39,879 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:01:47,380 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:01:54,445 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:01:54,881 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:02:02,380 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:02:09,682 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:02:09,728 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:02:09,990 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:02:17,478 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:02:21,696 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:02:24,979 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:02:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:02:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:02:25,004 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:02:25,016 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:02:25,018 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:02:25,019 [TaskManager_Worker-5] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:02:25,020 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:02:25,022 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:02:25,128 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)105.7631ms
+2018-01-05 15:02:25,128 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:02:25,130 [TaskManager_Worker-5] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:02:25,132 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-5
+2018-01-05 15:02:25,132 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-5
+2018-01-05 15:02:25,134 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-5
+2018-01-05 15:02:25,136 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-5
+2018-01-05 15:02:25,138 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:02:32,479 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:02:39,980 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:02:47,481 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:02:51,134 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:02:54,982 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:03:02,494 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:03:09,681 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:03:09,683 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:03:09,990 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:03:14,465 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:03:17,506 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:03:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:03:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:03:25,004 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:03:25,011 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:03:25,030 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:03:25,031 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:03:25,032 [TaskManager_Worker-6] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:03:25,033 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:03:25,033 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:03:25,582 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)525.54ms
+2018-01-05 15:03:25,582 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:03:25,637 [TaskManager_Worker-6] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:03:25,638 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-6
+2018-01-05 15:03:25,639 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-6
+2018-01-05 15:03:25,640 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-6
+2018-01-05 15:03:25,766 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-6
+2018-01-05 15:03:25,768 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:03:32,524 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:03:40,034 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:03:48,706 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:03:55,671 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:03:56,197 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:04:03,647 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:04:09,681 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:04:09,685 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:04:11,136 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:04:18,655 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:04:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:04:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:04:25,125 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:04:25,282 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:04:25,284 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:04:25,285 [TaskManager_Worker-7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:04:25,286 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:04:25,291 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:04:26,107 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:04:33,799 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:04:41,256 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:04:46,494 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)20988.4185ms
+2018-01-05 15:04:46,494 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:04:46,500 [TaskManager_Worker-7] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:04:46,502 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-7
+2018-01-05 15:04:46,503 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-7
+2018-01-05 15:04:46,504 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-7
+2018-01-05 15:04:46,585 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-7
+2018-01-05 15:04:46,588 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:04:48,685 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:04:56,136 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:05:03,690 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:05:09,680 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:05:09,682 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:05:11,151 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:05:14,768 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:05:18,764 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:05:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:05:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:05:25,014 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:05:25,034 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:05:25,043 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:05:25,047 [TaskManager_Worker-8] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:05:25,047 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:05:25,049 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:05:25,363 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)294.0094ms
+2018-01-05 15:05:25,363 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:05:25,370 [TaskManager_Worker-8] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:05:25,373 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-8
+2018-01-05 15:05:25,374 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-8
+2018-01-05 15:05:25,376 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-8
+2018-01-05 15:05:25,418 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-8
+2018-01-05 15:05:25,419 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:05:26,239 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:05:33,740 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:05:41,448 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:05:48,731 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:05:55,296 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:05:56,252 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:06:03,740 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:06:09,680 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:06:09,682 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:06:11,257 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:06:18,725 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:06:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:06:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:06:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:06:25,007 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:06:25,008 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:06:25,011 [TaskManager_Worker-9] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:06:25,012 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:06:25,014 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:06:25,157 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)143.0485ms
+2018-01-05 15:06:25,157 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:06:25,159 [TaskManager_Worker-9] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:06:25,161 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-9
+2018-01-05 15:06:25,161 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-9
+2018-01-05 15:06:25,163 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-9
+2018-01-05 15:06:25,165 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-9
+2018-01-05 15:06:25,167 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:06:26,226 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:06:33,747 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:06:41,235 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:06:48,729 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:06:49,689 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:06:56,225 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:07:03,856 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:07:09,679 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:07:09,681 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:07:11,350 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:07:18,553 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:07:18,848 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:07:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:07:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:07:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:07:25,129 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:07:25,130 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:07:25,131 [TaskManager_Worker-10] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:07:25,132 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:07:25,133 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:07:25,906 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)770.5548ms
+2018-01-05 15:07:25,906 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:07:26,092 [TaskManager_Worker-10] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:07:26,095 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-10
+2018-01-05 15:07:26,096 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-10
+2018-01-05 15:07:26,098 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-10
+2018-01-05 15:07:26,110 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-10
+2018-01-05 15:07:26,111 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:07:26,540 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:07:33,905 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:07:41,346 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:07:48,875 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:07:53,040 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:07:56,350 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:08:03,847 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:08:09,679 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:08:09,680 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:08:11,378 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:08:18,902 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:08:20,287 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:08:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:08:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:08:25,004 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:08:25,071 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:08:25,072 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:08:25,073 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:08:25,073 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:08:25,075 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:08:25,681 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)553.4977ms
+2018-01-05 15:08:25,681 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:08:25,779 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:08:25,781 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-1
+2018-01-05 15:08:25,783 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-1
+2018-01-05 15:08:25,784 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-1
+2018-01-05 15:08:25,910 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-1
+2018-01-05 15:08:25,912 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:08:26,374 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:08:33,855 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:08:41,376 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:08:48,850 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:08:51,856 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:08:56,348 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:09:03,852 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:09:09,678 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:09:09,680 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:09:11,368 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:09:18,851 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:09:21,643 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:09:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:09:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:09:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:09:25,035 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:09:25,036 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:09:25,039 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:09:25,039 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:09:25,041 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:09:25,180 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)123.2991ms
+2018-01-05 15:09:25,181 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:09:25,183 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:09:25,184 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-2
+2018-01-05 15:09:25,184 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-2
+2018-01-05 15:09:25,185 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-2
+2018-01-05 15:09:25,187 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-2
+2018-01-05 15:09:25,188 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:09:26,352 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:09:33,851 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:09:41,353 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:09:48,852 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:09:50,935 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:09:56,611 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:10:03,852 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:10:09,677 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:10:09,679 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:10:11,353 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:10:18,855 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:10:19,683 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:10:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:10:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:10:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:10:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:10:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:10:25,013 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:10:25,014 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:10:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:10:25,177 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)159.9444ms
+2018-01-05 15:10:25,177 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:10:25,179 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:10:25,180 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-3
+2018-01-05 15:10:25,180 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-3
+2018-01-05 15:10:25,181 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-3
+2018-01-05 15:10:25,184 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-3
+2018-01-05 15:10:25,185 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:10:26,354 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:10:33,860 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:10:41,353 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:10:48,855 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:10:49,625 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:10:56,354 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:11:03,853 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:11:09,677 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:11:09,679 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:11:11,353 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:11:14,052 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:11:18,853 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:11:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:11:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:11:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:11:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:11:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:11:25,013 [TaskManager_Worker-4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:11:25,014 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:11:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:11:25,156 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)139.8365ms
+2018-01-05 15:11:25,156 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:11:25,158 [TaskManager_Worker-4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:11:25,159 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-4
+2018-01-05 15:11:25,159 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-4
+2018-01-05 15:11:25,160 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-4
+2018-01-05 15:11:25,163 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-4
+2018-01-05 15:11:25,164 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:11:26,354 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:11:33,854 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:11:41,354 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:11:48,860 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:11:49,485 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:11:56,361 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:12:03,951 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:12:09,676 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:12:09,678 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:12:11,362 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:12:12,661 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:12:18,863 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:12:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:12:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:12:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:12:25,070 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:12:25,071 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:12:25,073 [TaskManager_Worker-5] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:12:25,073 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:12:25,076 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:12:25,175 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)99.3406ms
+2018-01-05 15:12:25,176 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:12:25,178 [TaskManager_Worker-5] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:12:25,179 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-5
+2018-01-05 15:12:25,180 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-5
+2018-01-05 15:12:25,180 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-5
+2018-01-05 15:12:25,182 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-5
+2018-01-05 15:12:25,183 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:12:26,363 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:12:33,863 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:12:41,363 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:12:48,864 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:12:49,477 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:12:56,363 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:13:03,863 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:13:09,676 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:13:09,678 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:13:11,386 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:13:17,057 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:13:18,864 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:13:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:13:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:13:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:13:25,007 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:13:25,008 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:13:25,008 [TaskManager_Worker-6] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:13:25,009 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:13:25,009 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:13:25,095 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)84.0238ms
+2018-01-05 15:13:25,095 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:13:25,097 [TaskManager_Worker-6] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:13:25,098 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-6
+2018-01-05 15:13:25,098 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-6
+2018-01-05 15:13:25,099 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-6
+2018-01-05 15:13:25,101 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-6
+2018-01-05 15:13:25,102 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:13:26,365 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:13:34,231 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:13:41,365 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:13:48,866 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:13:54,594 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:13:56,368 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:14:03,868 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:14:09,675 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:14:09,677 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:14:11,368 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:14:18,869 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:14:20,816 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:14:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:14:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:14:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:14:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:14:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:14:25,012 [TaskManager_Worker-7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:14:25,013 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:14:25,013 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:14:25,107 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)91.2695ms
+2018-01-05 15:14:25,108 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:14:25,109 [TaskManager_Worker-7] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:14:25,110 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-7
+2018-01-05 15:14:25,110 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-7
+2018-01-05 15:14:25,111 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-7
+2018-01-05 15:14:25,115 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-7
+2018-01-05 15:14:25,117 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:14:26,379 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:14:33,870 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:14:41,370 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:14:48,661 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:14:48,869 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:14:56,370 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:15:04,176 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:15:09,675 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:15:09,676 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:15:11,371 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:15:17,511 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:15:18,870 [QuartzScheduler_TaskManager-Vincent-PC.lan636507322888627052_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:21:34,060 [1] INFO  TaskManagerCommon.LogHelper - 创建新的服务实例 'TaskManagerServer.QuartzServer, TaskManagerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2018-01-05 15:21:34,075 [1] INFO  TaskManagerCommon.LogHelper - 创建新的服务实例成功
+2018-01-05 15:21:34,175 [1] INFO  Quartz.Util.DBConnectionManager - Registering datasource 'QuartzDB' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2018-01-05 15:21:34,175 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2018-01-05 15:21:34,183 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using custom data access locking (synchronization): Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore
+2018-01-05 15:21:34,184 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2018-01-05 15:21:34,231 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-01-05 15:21:34,232 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.6.0.0 created.
+2018-01-05 15:21:34,245 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate
+2018-01-05 15:21:34,246 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate
+2018-01-05 15:21:34,247 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate
+2018-01-05 15:21:34,248 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate
+2018-01-05 15:21:34,248 [1] WARN  Quartz.Impl.AdoJobStore.JobStoreTX - Detected usage of SqlServerDelegate and UpdateLockRowSemaphore, removing 'quartz.jobStore.lockHandler.type' would allow more efficient SQL Server specific (UPDLOCK,ROWLOCK) row access
+2018-01-05 15:21:34,249 [1] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - JobStoreTX initialized.
+2018-01-05 15:21:34,280 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Remoting is allowing remote calls
+2018-01-05 15:21:34,280 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (556) with name (http)
+2018-01-05 15:21:34,281 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Remoting channel registered successfully
+2018-01-05 15:21:34,282 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Successfully marshalled remotable scheduler under name 'TaskManager'
+2018-01-05 15:21:34,285 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.6.0.0) 'TaskManager' with instanceId 'Vincent-PC.lan636507336941940855'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is clustered.
+
+2018-01-05 15:21:34,286 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'TaskManager' initialized
+2018-01-05 15:21:34,286 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.6.0.0
+2018-01-05 15:21:34,376 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'STATE_ACCESS' is desired by: 
+2018-01-05 15:21:34,380 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'STATE_ACCESS' is being obtained: 
+2018-01-05 15:21:34,384 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'STATE_ACCESS' given to: 
+2018-01-05 15:21:34,407 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 
+2018-01-05 15:21:34,408 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 
+2018-01-05 15:21:34,408 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 
+2018-01-05 15:21:34,414 [1] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: detected 1 failed or restarted instances.
+2018-01-05 15:21:34,415 [1] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Scanning for instance "Vincent-PC.lan636507322888627052"'s failed in-progress jobs.
+2018-01-05 15:21:34,429 [1] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: ......Freed 1 acquired trigger(s).
+2018-01-05 15:21:34,430 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: ......Deleted 0 complete triggers(s).
+2018-01-05 15:21:34,430 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: ......Scheduled 0 recoverable job(s) for recovery.
+2018-01-05 15:21:34,430 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: ......Cleaned-up 0 other failed job(s).
+2018-01-05 15:21:34,437 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 
+2018-01-05 15:21:34,438 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'STATE_ACCESS' returned by: 
+2018-01-05 15:21:34,439 [1] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:21:34,443 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler TaskManager_$_Vincent-PC.lan636507336941940855 started.
+2018-01-05 15:21:34,444 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:21:34,444 [1] INFO  TaskManagerCommon.LogHelper - 作业启动成功
+2018-01-05 15:21:34,449 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler
+2018-01-05 15:21:34,449 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler
+2018-01-05 15:21:34,451 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler
+2018-01-05 15:21:34,478 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] INFO  Quartz.Impl.AdoJobStore.JobStoreTX - Handling 1 trigger(s) that missed their scheduled fire-time.
+2018-01-05 15:21:34,487 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:21:34,568 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler
+2018-01-05 15:21:34,572 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:21:41,919 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:21:49,416 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:21:56,927 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:22:01,066 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:22:04,412 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:22:12,003 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:22:19,476 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:22:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:22:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:22:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:22:25,014 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:22:25,018 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:22:25,029 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:22:25,038 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:22:25,040 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:22:25,212 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)139.5796ms
+2018-01-05 15:22:25,212 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:22:25,216 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:22:25,219 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-1
+2018-01-05 15:22:25,220 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-1
+2018-01-05 15:22:25,221 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-1
+2018-01-05 15:22:25,227 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-1
+2018-01-05 15:22:25,230 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:22:26,986 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:22:34,442 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:22:34,443 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:22:34,485 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:22:41,985 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:22:49,486 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:22:54,008 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:22:57,126 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:23:04,486 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:23:11,986 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:23:19,487 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:23:19,655 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:23:25,005 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:23:25,006 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:23:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:23:25,026 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:23:25,027 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:23:25,028 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:23:25,029 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:23:25,052 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:23:25,247 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)195.4289ms
+2018-01-05 15:23:25,247 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:23:25,249 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:23:25,250 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-2
+2018-01-05 15:23:25,251 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-2
+2018-01-05 15:23:25,251 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-2
+2018-01-05 15:23:25,257 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-2
+2018-01-05 15:23:25,259 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:23:26,988 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:23:34,441 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:23:34,443 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:23:34,487 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:23:41,988 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:23:49,487 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:23:53,648 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:23:56,988 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:24:04,779 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:24:11,992 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:24:19,488 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:24:20,504 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:24:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:24:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:24:25,005 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:24:25,020 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:24:25,021 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:24:25,021 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:24:25,022 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:24:25,027 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:24:25,188 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)161.5916ms
+2018-01-05 15:24:25,189 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:24:25,192 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:24:25,193 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-3
+2018-01-05 15:24:25,193 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-3
+2018-01-05 15:24:25,195 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-3
+2018-01-05 15:24:25,199 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-3
+2018-01-05 15:24:25,202 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:24:27,050 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:24:34,441 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:24:34,443 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:24:34,490 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:24:41,990 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:24:49,492 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:24:50,005 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:24:57,208 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:25:04,521 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:25:12,010 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:25:18,661 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:25:19,509 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:25:25,014 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:25:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:25:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:25:25,019 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:25:25,020 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:25:25,020 [TaskManager_Worker-4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:25:25,020 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:25:25,022 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:25:25,300 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)278.4624ms
+2018-01-05 15:25:25,301 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:25:25,302 [TaskManager_Worker-4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:25:25,303 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-4
+2018-01-05 15:25:25,303 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-4
+2018-01-05 15:25:25,304 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-4
+2018-01-05 15:25:25,307 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-4
+2018-01-05 15:25:25,406 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:25:27,012 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:25:34,440 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:25:34,442 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:25:34,510 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:25:42,010 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:25:49,544 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:25:52,967 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:25:57,018 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:26:04,512 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:26:12,011 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:26:19,521 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:26:20,657 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:26:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:26:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:26:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:26:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:26:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:26:25,012 [TaskManager_Worker-5] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:26:25,012 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:26:25,017 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:26:25,133 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)116.6747ms
+2018-01-05 15:26:25,133 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:26:25,135 [TaskManager_Worker-5] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:26:25,136 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-5
+2018-01-05 15:26:25,136 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-5
+2018-01-05 15:26:25,137 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-5
+2018-01-05 15:26:25,139 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-5
+2018-01-05 15:26:25,140 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:26:27,012 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:26:34,440 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:26:34,442 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:26:34,547 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:26:42,013 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:26:48,511 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:26:49,514 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:26:57,014 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:27:04,512 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:27:12,014 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:27:17,137 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:27:19,516 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:27:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:27:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:27:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:27:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:27:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:27:25,013 [TaskManager_Worker-6] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:27:25,014 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:27:25,016 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:27:25,136 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)120.3413ms
+2018-01-05 15:27:25,136 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:27:25,138 [TaskManager_Worker-6] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:27:25,139 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-6
+2018-01-05 15:27:25,139 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-6
+2018-01-05 15:27:25,140 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-6
+2018-01-05 15:27:25,142 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-6
+2018-01-05 15:27:25,142 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:27:27,017 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:27:34,439 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:27:34,441 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:27:34,658 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:27:42,019 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:27:49,518 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:27:54,704 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:27:57,017 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:28:04,518 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:28:12,018 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:28:18,403 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:28:19,530 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:28:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:28:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:28:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:28:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:28:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:28:25,012 [TaskManager_Worker-7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:28:25,012 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:28:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:28:25,113 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)96.4365ms
+2018-01-05 15:28:25,114 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:28:25,115 [TaskManager_Worker-7] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:28:25,116 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-7
+2018-01-05 15:28:25,117 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-7
+2018-01-05 15:28:25,118 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-7
+2018-01-05 15:28:25,120 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-7
+2018-01-05 15:28:25,122 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:28:27,021 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:28:34,439 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:28:34,441 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:28:34,522 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:28:42,023 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:28:49,539 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:28:50,611 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:28:57,029 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:29:04,529 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:29:12,030 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:29:19,478 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:29:19,538 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:29:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:29:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:29:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:29:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:29:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:29:25,013 [TaskManager_Worker-8] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:29:25,013 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:29:25,014 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:29:25,134 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)118.4488ms
+2018-01-05 15:29:25,134 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:29:25,145 [TaskManager_Worker-8] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:29:25,146 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-8
+2018-01-05 15:29:25,146 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-8
+2018-01-05 15:29:25,147 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-8
+2018-01-05 15:29:25,157 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-8
+2018-01-05 15:29:25,158 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:29:27,034 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:29:34,438 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:29:34,440 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:29:34,532 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:29:42,032 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:29:49,534 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:29:54,919 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:29:57,035 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:30:04,535 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:30:12,035 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:30:19,536 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:30:23,463 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:30:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:30:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:30:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:30:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:30:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:30:25,012 [TaskManager_Worker-9] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:30:25,013 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:30:25,013 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:30:25,104 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)88.494ms
+2018-01-05 15:30:25,104 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:30:25,106 [TaskManager_Worker-9] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:30:25,106 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-9
+2018-01-05 15:30:25,107 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-9
+2018-01-05 15:30:25,107 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-9
+2018-01-05 15:30:25,109 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-9
+2018-01-05 15:30:25,110 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:30:27,036 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:30:34,437 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:30:34,439 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:30:34,536 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:30:42,037 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:30:49,537 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:30:52,261 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:30:57,038 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:31:04,538 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:31:12,039 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:31:19,503 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:31:19,540 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:31:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:31:25,005 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:31:25,007 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:31:25,014 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:31:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:31:25,016 [TaskManager_Worker-10] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:31:25,017 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:31:25,018 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:31:25,135 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)116.1164ms
+2018-01-05 15:31:25,135 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:31:25,136 [TaskManager_Worker-10] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:31:25,137 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-10
+2018-01-05 15:31:25,138 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-10
+2018-01-05 15:31:25,139 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-10
+2018-01-05 15:31:25,141 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-10
+2018-01-05 15:31:25,142 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:31:27,038 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:31:34,437 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:31:34,439 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:31:34,540 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:31:42,040 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:31:49,541 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:31:54,542 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:31:57,040 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:32:04,540 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:32:12,040 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:32:19,541 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:32:24,455 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:32:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:32:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:32:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:32:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:32:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:32:25,013 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:32:25,014 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:32:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:32:25,107 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)91.3461ms
+2018-01-05 15:32:25,108 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:32:25,109 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:32:25,110 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-1
+2018-01-05 15:32:25,111 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-1
+2018-01-05 15:32:25,111 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-1
+2018-01-05 15:32:25,114 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-1
+2018-01-05 15:32:25,115 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:32:27,043 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:32:34,436 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:32:34,440 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:32:34,541 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:32:42,042 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:32:49,542 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:32:49,693 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:32:57,044 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:33:04,543 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:33:12,044 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:33:19,119 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:33:19,543 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:33:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:33:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:33:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:33:25,009 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:33:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:33:25,011 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:33:25,011 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:33:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:33:25,110 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)95.0798ms
+2018-01-05 15:33:25,110 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:33:25,111 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:33:25,112 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-2
+2018-01-05 15:33:25,112 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-2
+2018-01-05 15:33:25,113 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-2
+2018-01-05 15:33:25,115 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-2
+2018-01-05 15:33:25,116 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:33:27,043 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:33:34,436 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:33:34,438 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:33:34,544 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:33:42,044 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:33:49,172 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:33:49,586 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:33:57,045 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:34:04,547 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:34:12,046 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:34:15,086 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:34:19,546 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:34:25,007 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:34:25,008 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:34:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:34:25,018 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:34:25,018 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:34:25,019 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:34:25,020 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:34:25,020 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:34:25,123 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)101.8848ms
+2018-01-05 15:34:25,124 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:34:25,125 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:34:25,126 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-3
+2018-01-05 15:34:25,127 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-3
+2018-01-05 15:34:25,127 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-3
+2018-01-05 15:34:25,129 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-3
+2018-01-05 15:34:25,130 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:34:27,047 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:34:34,435 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:34:34,437 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:34:34,547 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:34:42,048 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:34:49,548 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:34:52,290 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:34:57,050 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:35:04,558 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:35:12,057 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:35:16,177 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:35:19,557 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:35:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:35:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:35:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:35:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:35:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:35:25,013 [TaskManager_Worker-4] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:35:25,014 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:35:25,017 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:35:25,127 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)111.4249ms
+2018-01-05 15:35:25,127 [TaskManager_Worker-4] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:35:25,129 [TaskManager_Worker-4] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:35:25,130 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-4
+2018-01-05 15:35:25,130 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-4
+2018-01-05 15:35:25,131 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-4
+2018-01-05 15:35:25,133 [TaskManager_Worker-4] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-4
+2018-01-05 15:35:25,134 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:35:27,057 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:35:34,435 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:35:34,437 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:35:34,557 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:35:42,057 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:35:49,558 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:35:55,081 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:35:57,058 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:36:04,559 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:36:12,059 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:36:19,560 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:36:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:36:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:36:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:36:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:36:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:36:25,012 [TaskManager_Worker-5] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:36:25,013 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:36:25,014 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:36:25,126 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)110.6637ms
+2018-01-05 15:36:25,126 [TaskManager_Worker-5] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:36:25,128 [TaskManager_Worker-5] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:36:25,129 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-5
+2018-01-05 15:36:25,129 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-5
+2018-01-05 15:36:25,130 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-5
+2018-01-05 15:36:25,145 [TaskManager_Worker-5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-5
+2018-01-05 15:36:25,146 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:36:27,060 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:36:34,434 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:36:34,436 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:36:34,559 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:36:42,060 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:36:49,560 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:36:54,853 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:36:57,060 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:37:04,562 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:37:12,062 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:37:18,899 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:37:19,563 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:37:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:37:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:37:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:37:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:37:25,013 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:37:25,014 [TaskManager_Worker-6] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:37:25,014 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:37:25,017 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:37:25,206 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)188.7145ms
+2018-01-05 15:37:25,206 [TaskManager_Worker-6] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:37:25,208 [TaskManager_Worker-6] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:37:25,210 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-6
+2018-01-05 15:37:25,210 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-6
+2018-01-05 15:37:25,212 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-6
+2018-01-05 15:37:25,215 [TaskManager_Worker-6] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-6
+2018-01-05 15:37:25,217 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:37:27,062 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:37:34,436 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:37:34,438 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:37:34,564 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:37:42,063 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:37:48,476 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:37:49,563 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:37:57,064 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:38:04,563 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:38:12,064 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:38:16,168 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:38:19,564 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:38:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:38:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:38:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:38:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:38:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:38:25,012 [TaskManager_Worker-7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:38:25,013 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:38:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:38:25,175 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)159.6505ms
+2018-01-05 15:38:25,176 [TaskManager_Worker-7] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:38:25,180 [TaskManager_Worker-7] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:38:25,182 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-7
+2018-01-05 15:38:25,183 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-7
+2018-01-05 15:38:25,185 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-7
+2018-01-05 15:38:25,212 [TaskManager_Worker-7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-7
+2018-01-05 15:38:25,213 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:38:27,066 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:38:34,435 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:38:34,437 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:38:34,566 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:38:42,066 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:38:49,566 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:38:52,881 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:38:57,066 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:39:04,568 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:39:12,067 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:39:18,767 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:39:19,568 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:39:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:39:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:39:25,004 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:39:25,039 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:39:25,040 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:39:25,042 [TaskManager_Worker-8] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:39:25,042 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:39:25,049 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:39:25,131 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)82.3393ms
+2018-01-05 15:39:25,131 [TaskManager_Worker-8] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:39:25,154 [TaskManager_Worker-8] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:39:25,157 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-8
+2018-01-05 15:39:25,157 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-8
+2018-01-05 15:39:25,158 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-8
+2018-01-05 15:39:25,185 [TaskManager_Worker-8] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-8
+2018-01-05 15:39:25,186 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:39:27,069 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:39:34,434 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:39:34,440 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:39:34,568 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:39:42,076 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:39:49,568 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:39:50,711 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:39:57,069 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:40:04,569 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:40:12,069 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:40:15,118 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:40:19,569 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:40:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:40:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:40:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:40:25,051 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:40:25,055 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:40:25,057 [TaskManager_Worker-9] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:40:25,058 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:40:25,059 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:40:25,161 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)101.0182ms
+2018-01-05 15:40:25,162 [TaskManager_Worker-9] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:40:25,163 [TaskManager_Worker-9] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:40:25,164 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-9
+2018-01-05 15:40:25,164 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-9
+2018-01-05 15:40:25,165 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-9
+2018-01-05 15:40:25,167 [TaskManager_Worker-9] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-9
+2018-01-05 15:40:25,167 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:40:27,070 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:40:34,434 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:40:34,435 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:40:34,570 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:40:42,070 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:40:49,572 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:40:52,799 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:40:57,071 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:41:04,618 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:41:12,071 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:41:19,708 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:41:21,209 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:41:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:41:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:41:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:41:25,006 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:41:25,007 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:41:25,007 [TaskManager_Worker-10] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:41:25,008 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:41:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:41:25,115 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)105.652ms
+2018-01-05 15:41:25,116 [TaskManager_Worker-10] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:41:25,117 [TaskManager_Worker-10] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:41:25,118 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-10
+2018-01-05 15:41:25,119 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-10
+2018-01-05 15:41:25,119 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-10
+2018-01-05 15:41:25,123 [TaskManager_Worker-10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-10
+2018-01-05 15:41:25,128 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:41:27,184 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:41:34,433 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:41:34,436 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:41:34,685 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:41:42,186 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:41:49,697 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:41:52,230 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:41:57,197 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:42:04,697 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:42:12,196 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:42:17,507 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:42:19,697 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:42:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:42:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:42:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:42:25,010 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:42:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:42:25,014 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:42:25,015 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:42:25,016 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:42:25,119 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)100.6224ms
+2018-01-05 15:42:25,119 [TaskManager_Worker-1] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:42:25,121 [TaskManager_Worker-1] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:42:25,123 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-1
+2018-01-05 15:42:25,123 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-1
+2018-01-05 15:42:25,124 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-1
+2018-01-05 15:42:25,127 [TaskManager_Worker-1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-1
+2018-01-05 15:42:25,128 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:42:27,197 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:42:34,433 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:42:34,436 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:42:34,699 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:42:42,198 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:42:49,699 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:42:54,464 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:42:57,199 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:43:04,700 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:43:12,200 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:43:19,700 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:43:23,345 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:43:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:43:25,001 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:43:25,003 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:43:25,011 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:43:25,012 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:43:25,013 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:43:25,014 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:43:25,016 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:43:25,136 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)119.3287ms
+2018-01-05 15:43:25,136 [TaskManager_Worker-2] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:43:25,138 [TaskManager_Worker-2] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:43:25,138 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-2
+2018-01-05 15:43:25,139 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-2
+2018-01-05 15:43:25,140 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-2
+2018-01-05 15:43:25,142 [TaskManager_Worker-2] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-2
+2018-01-05 15:43:25,143 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:43:27,202 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:43:34,432 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:43:34,434 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:43:34,705 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:43:42,202 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:43:49,700 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:43:53,891 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:43:57,204 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:44:04,704 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:44:12,204 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:44:18,522 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2018-01-05 15:44:19,704 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:44:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:44:25,000 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_QuartzSchedulerThread
+2018-01-05 15:44:25,002 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_QuartzSchedulerThread
+2018-01-05 15:44:25,014 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_QuartzSchedulerThread
+2018-01-05 15:44:25,015 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job '批次客流.批次客流原始数据入批次表', class=BatchTrafficTasks.SummaryBatch
+2018-01-05 15:44:25,015 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Calling Execute on job 批次客流.批次客流原始数据入批次表
+2018-01-05 15:44:25,016 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger开始执行
+2018-01-05 15:44:25,018 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:44:25,289 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 性能问题(批次客流原始数据入批次表)271.084ms
+2018-01-05 15:44:25,290 [TaskManager_Worker-3] INFO  TaskManagerCommon.LogHelper - 批次客流原始数据入批次表_Trigger成功执行
+2018-01-05 15:44:25,301 [TaskManager_Worker-3] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2018-01-05 15:44:25,302 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: TaskManager_Worker-3
+2018-01-05 15:44:25,302 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: TaskManager_Worker-3
+2018-01-05 15:44:25,303 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: TaskManager_Worker-3
+2018-01-05 15:44:25,315 [TaskManager_Worker-3] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: TaskManager_Worker-3
+2018-01-05 15:44:25,316 [TaskManager_QuartzSchedulerThread] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2018-01-05 15:44:27,206 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:44:34,432 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - MisfireHandler: scanning for misfires...
+2018-01-05 15:44:34,434 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_MisfireHandler] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2018-01-05 15:44:34,706 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.
+2018-01-05 15:44:42,206 [QuartzScheduler_TaskManager-Vincent-PC.lan636507336941940855_ClusterManager] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - ClusterManager: Check-in complete.

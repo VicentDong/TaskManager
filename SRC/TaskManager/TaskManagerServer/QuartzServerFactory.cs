@@ -1,5 +1,5 @@
 using System;
-using Common.Logging;
+using TaskManagerCommon;
 
 namespace TaskManagerServer
 {
@@ -8,8 +8,6 @@ namespace TaskManagerServer
     /// </summary>
     public class QuartzServerFactory
     {
-        private static readonly ILog logger = LogManager.GetLogger(typeof (QuartzServerFactory));
-
         /// <summary>
         /// Creates a new instance of an Quartz.NET server core.
         /// </summary>
@@ -20,11 +18,11 @@ namespace TaskManagerServer
 
             Type t = Type.GetType(typeName, true);
 
-            logger.Debug("Creating new instance of server type '" + typeName + "'");
+            LogHelper.ServerInfo("创建新的服务实例 '" + typeName + "'");
 
             QuartzServer retValue = (QuartzServer) Activator.CreateInstance(t);
 
-            logger.Debug("Instance successfully created");
+            LogHelper.ServerInfo("创建新的服务实例成功");
             return retValue;
         }
     }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+
+    <!--数据库链接-->
+    <DBConnectionString conn='Data Source="192.168.2.88";Initial Catalog="IPVA_BAOJIE";User ID="sa";Password="winner@001";'/>
+
+</Config>

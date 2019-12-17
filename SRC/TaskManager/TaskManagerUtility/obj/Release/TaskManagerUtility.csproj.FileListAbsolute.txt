@@ -1,0 +1,16 @@
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\TaskManagerUtility.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\TaskManagerUtility.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Common.Logging.Core.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Common.Logging.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Quartz.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\TaskManagerCommon.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\TaskManagerCommon.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Common.Logging.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Common.Logging.xml
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Common.Logging.Core.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Common.Logging.Core.xml
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Quartz.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\bin\Release\Quartz.xml
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\obj\Release\TaskManagerUtility.csprojResolveAssemblyReference.cache
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\obj\Release\TaskManagerUtility.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerUtility\obj\Release\TaskManagerUtility.pdb

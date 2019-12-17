@@ -58,34 +58,26 @@ namespace TaskManagerUtility
 
                     #region Quartz配置
                     //NameValueCollection properties = new NameValueCollection();
-
-
                     //properties["quartz.scheduler.instanceName"] = "QuartzDBDemo";
-
                     //// 设置线程池
                     //properties["quartz.threadPool.type"] = "Quartz.Simpl.SimpleThreadPool, Quartz";
                     //properties["quartz.threadPool.threadCount"] = "5";
                     //properties["quartz.threadPool.threadPriority"] = "Normal";
-
                     //// 远程输出配置
                     //properties["quartz.scheduler.exporter.type"] = "Quartz.Simpl.RemotingSchedulerExporter, Quartz";
                     //properties["quartz.scheduler.exporter.port"] = "556";
                     //properties["quartz.scheduler.exporter.bindName"] = "QuartzScheduler";
                     //properties["quartz.scheduler.exporter.channelType"] = "tcp";
-
-
-                    //// 驱动类型，这里用的mysql，目前支持如下驱动：
-                    ////Quartz.Impl.AdoJobStore.FirebirdDelegate
-                    ////Quartz.Impl.AdoJobStore.MySQLDelegate
-                    ////Quartz.Impl.AdoJobStore.OracleDelegate
-                    ////Quartz.Impl.AdoJobStore.SQLiteDelegate
-                    ////Quartz.Impl.AdoJobStore.SqlServerDelegate
+                    // 驱动类型，这里用的mysql，目前支持如下驱动：
+                    //Quartz.Impl.AdoJobStore.FirebirdDelegate
+                    //Quartz.Impl.AdoJobStore.MySQLDelegate
+                    //Quartz.Impl.AdoJobStore.OracleDelegate
+                    //Quartz.Impl.AdoJobStore.SQLiteDelegate
+                    //Quartz.Impl.AdoJobStore.SqlServerDelegate
                     //properties["quartz.jobStore.driverDelegateType"] = "Quartz.Impl.AdoJobStore.SqlServerDelegate, Quartz";
 
-                    //// 数据源名称
+                    // 数据源名称
                     //properties["quartz.jobStore.dataSource"] = "QuartzDB";
-
-                    //// 数据库版本
                     ///* 数据库版本    MySql.Data.dll版本,二者必须保持一致
                     // * MySql-10    1.0.10.1
                     // * MySql-109   1.0.9.0
@@ -102,20 +94,16 @@ namespace TaskManagerUtility
                     //*/
                     //properties["quartz.dataSource.QuartzDB.provider"] = "SqlServer-20";
 
-                    //// 连接字符串
+                    // 连接字符串
                     //properties["quartz.dataSource.QuartzDB.connectionString"] = "server=192.168.2.88;database=QuartzDB;uid=sa;pwd=winner@001";
-
                     //// 事物类型JobStoreTX自动管理 JobStoreCMT应用程序管理
                     //properties["quartz.jobStore.type"] = "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz";
-
                     //// 表明前缀
                     //properties["quartz.jobStore.tablePrefix"] = "QRTZ_";
-
                     //// Quartz Scheduler唯一实例ID，auto：自动生成
                     //properties["quartz.scheduler.instanceId"] = "AUTO";
-
-                    //// 集群
-                    ////properties["quartz.jobStore.clustered"] = "true";
+                    // 集群
+                    //properties["quartz.jobStore.clustered"] = "true";
 
                     #endregion
                     //ISchedulerFactory schedulerFactory = new StdSchedulerFactory(properties);
@@ -250,9 +238,9 @@ namespace TaskManagerUtility
             int result = -1;
             try
             {
-              JobKey jobkey = JobKey.Create(name,group);
-              PauseJob(jobkey);
-              result = 0;
+                JobKey jobkey = JobKey.Create(name, group);
+                PauseJob(jobkey);
+                result = 0;
             }
             catch (Exception ex)
             {
@@ -285,7 +273,7 @@ namespace TaskManagerUtility
         /// 恢复运行暂停的任务
         /// </summary>
         /// <param name="jobKey">任务key</param>
-        public static int ResumeJob(string name ,string group)
+        public static int ResumeJob(string name, string group)
         {
             int result = -1;
             try
@@ -550,9 +538,9 @@ namespace TaskManagerUtility
             {
                 if (task != null)
                 {
-
+                                        
                     jobDetail = new JobDetailImpl(task.Name, task.Group, QuartzHelper.GetClassInfo(task.AssemblyName, task.ClassName), true, true);
-            
+
                     if (task.Type == 0)
                     {
                         trigger = new SimpleTriggerImpl()
@@ -609,7 +597,14 @@ namespace TaskManagerUtility
         /// <returns></returns>
         public static IList<string> GetTaskGroups()
         {
-            return _scheduler.GetJobGroupNames();
+            if (_scheduler != null)
+            {
+                return _scheduler.GetJobGroupNames();
+            }
+            else
+            {
+                return null;
+            }
         }
 
 
@@ -640,7 +635,16 @@ namespace TaskManagerUtility
                     task.Name = jobDetail.Key.Name;
                     task.Group = jobDetail.Key.Group;
                     //task.Description = jobDetail.Description;
-                    task.AssemblyName = jobDetail.JobType.Namespace.ToString();
+                    if (jobDetail.JobType.Namespace.IndexOf(".") > 0)
+                    {
+                        task.AssemblyName = jobDetail.JobType.Namespace.Substring(0, jobDetail.JobType.Namespace.IndexOf("."));
+                    }
+                    else
+                    {
+                        task.AssemblyName = jobDetail.JobType.Namespace.ToString();
+                    }
+                    // task.AssemblyName = jobDetail.JobType.Namespace.Substring(0, jobDetail.JobType.Namespace.IndexOf("."));
+
                     task.ClassName = jobDetail.JobType.FullName.ToString();
                     task.BeginTime = triggers[0].StartTimeUtc;
                     if (triggers[0].EndTimeUtc != null)

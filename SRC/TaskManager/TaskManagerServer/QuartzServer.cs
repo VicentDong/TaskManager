@@ -4,6 +4,7 @@ using Quartz.Impl;
 using Topshelf;
 using Quartz;
 using TaskManagerUtility;
+using TaskManagerCommon;
 
 namespace TaskManagerServer
 {
@@ -12,7 +13,6 @@ namespace TaskManagerServer
 	/// </summary>
 	public class QuartzServer : ServiceControl, IQuartzServer
 	{
-		private readonly ILog logger;
 
 		private IScheduler scheduler;
 
@@ -21,7 +21,7 @@ namespace TaskManagerServer
         /// </summary>
 	    public QuartzServer()
 	    {
-	        logger = LogManager.GetLogger(GetType());
+
 	    }
 
 	    /// <summary>
@@ -35,7 +35,7 @@ namespace TaskManagerServer
 			}
 			catch (Exception e)
 			{
-				logger.Error("Server initialization failed:" + e.Message, e);
+				LogHelper.ServerError("服务初始化失败:" + e.Message, e);
 				throw;
 			}
 		}
@@ -72,11 +72,11 @@ namespace TaskManagerServer
 	        }
 	        catch (Exception ex)
 	        {
-	            logger.Fatal(string.Format("Scheduler start failed: {0}", ex.Message), ex);
+                LogHelper.ServerError(string.Format("服务启动失败: {0}", ex.Message), ex);
 	            throw;
 	        }
 
-			logger.Info("Scheduler started successfully");
+            LogHelper.ServerInfo("作业启动成功");
 		}
 
 		/// <summary>
@@ -90,11 +90,11 @@ namespace TaskManagerServer
             }
             catch (Exception ex)
             {
-                logger.Error(string.Format("Scheduler stop failed: {0}", ex.Message), ex);
+                LogHelper.ServerError(string.Format("作业停止失败: {0}", ex.Message), ex);
                 throw;
             }
 
-			logger.Info("Scheduler shutdown complete");
+            LogHelper.ServerInfo("作业停止完成");
 		}
 
         /// <summary>

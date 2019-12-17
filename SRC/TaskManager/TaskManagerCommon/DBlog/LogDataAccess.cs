@@ -13,7 +13,7 @@ namespace TaskManagerCommon
         /// <summary>
         /// 数据库链接字符串
         /// </summary>
-        private string CONNECTION_STRINGS = ConfigurationManager.ConnectionStrings["SqlConnectionString"].ToString();
+        private string CONNECTION_STRINGS = ConfigurationManager.ConnectionStrings["TaskManagerConntecitonString"].ToString();
 
 
         /// <summary>

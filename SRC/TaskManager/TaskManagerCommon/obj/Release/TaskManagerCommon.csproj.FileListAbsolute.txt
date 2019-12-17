@@ -1,0 +1,10 @@
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Release\TaskManagerCommon.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Release\TaskManagerCommon.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Release\Common.Logging.Core.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Release\Common.Logging.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Release\Common.Logging.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Release\Common.Logging.xml
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Release\Common.Logging.Core.pdb
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\bin\Release\Common.Logging.Core.xml
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\obj\Release\TaskManagerCommon.dll
+E:\Source\normal\IPVA-DMA\doc\模块设计文档\S0400任务调度管理\SRC\TaskManager\TaskManagerCommon\obj\Release\TaskManagerCommon.pdb

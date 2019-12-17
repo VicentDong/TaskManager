@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Configuration;
-using Common.Logging;
+using TaskManagerCommon;
 using System.Diagnostics;
 
 namespace TaskManagerUtility
@@ -11,10 +11,7 @@ namespace TaskManagerUtility
     public static class PerformanceTracer
     {
 
-        private static readonly ILog logger = LogManager.GetLogger(typeof(PerformanceTracer));
-
         private static int performanceTracer;
-
 
         static PerformanceTracer()
         {
@@ -27,7 +24,6 @@ namespace TaskManagerUtility
                 performanceTracer = -1;
             }
         }
-
 
         /// <summary>
         /// 调用并且跟踪指定代码块的执行时间。
@@ -60,7 +56,7 @@ namespace TaskManagerUtility
                     {
                         if (!Debugger.IsAttached)
                         {
-                            logger.Info("性能问题(" + traceName + ")" + stopwatch.Elapsed.TotalMilliseconds + "ms");
+                            LogHelper.ServerInfo("性能问题(" + traceName + ")" + stopwatch.Elapsed.TotalMilliseconds + "ms");
                         }
 
                         Debug.WriteLine("性能问题({0})，耗时{1}毫秒。", traceName, stopwatch.Elapsed.TotalMilliseconds);
@@ -72,7 +68,7 @@ namespace TaskManagerUtility
                     {
                         throw;
                     }
-                    logger.Error(ex.Message, ex);
+                    LogHelper.ServerError(ex.Message, ex);
                 }
             }
             else
@@ -87,8 +83,7 @@ namespace TaskManagerUtility
                     {
                         throw;
                     }
-
-                    logger.Error(ex.Message, ex);
+                    LogHelper.ServerError(ex.Message, ex);
                 }
             }
         }
